@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="50"
+   height="40"
+   viewBox="0 0 13.229166 10.583334"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="arrow.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     showguides="true"
+     inkscape:zoom="22.627417"
+     inkscape:cx="21.279495"
+     inkscape:cy="26.516504"
+     inkscape:window-width="3440"
+     inkscape:window-height="1377"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <sodipodi:guide
+       position="9.4119695,9.6925699"
+       orientation="1,0"
+       id="guide1180"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="rect792"
+       style="display:inline;stroke-width:0.471816;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="M 9.334314,0.1421311 C 8.9913543,0.13569495 9.0309733,0.70135056 9.0309733,0.70135056 v 0.002515 l 0.00465,1.24729414 H 0.59686279 c -0.17960401,0 -0.32401123,0.2342895 -0.32401123,0.525683 v 5.5821281 c 0,0.052941 0.004767,0.1039978 0.0136452,0.1521066 0.007026,0.038071 0.016627,0.074297 0.0284784,0.1081493 0.055602,0.1588242 0.16073746,0.3063528 0.28188769,0.3063528 H 9.0449259 l 0.00465,1.2798357 c 0,0 0.00915,0.4954998 0.3426148,0.4954998 0.3334577,0 3.4457843,-4.50813 3.4457843,-4.50813 0,0 0.466292,-0.5081072 -0.0031,-1.1326919 C 12.609708,4.4604801 9.6274129,0.14450527 9.4076945,0.15135362 9.3813005,0.14550623 9.3571775,0.14256 9.334314,0.1421311 Z"
+       inkscape:label="rect792"
+       sodipodi:nodetypes="ccccssssssccscscc" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:3.52778px;font-family:Tate;-inkscape-font-specification:'Tate, Bold';text-align:center;letter-spacing:0.264583px;text-anchor:middle;display:none;fill:#000000;stroke-width:0.370417;stroke-linejoin:round;paint-order:fill markers stroke"
+       x="4.8451819"
+       y="4.9361324"
+       id="text952"
+       inkscape:label="SITE MAP"><tspan
+         sodipodi:role="line"
+         id="tspan950"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52778px;font-family:Tate;-inkscape-font-specification:'Tate, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:0.370417"
+         x="4.8451819"
+         y="4.9361324">SITE</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52778px;font-family:Tate;-inkscape-font-specification:'Tate, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:0.370417"
+         x="4.9774733"
+         y="9.3458576"
+         id="tspan1319"
+         dy="-1.2 0">MAP</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:3.52778px;font-family:Tate;-inkscape-font-specification:'Tate, Bold';text-align:center;letter-spacing:0.264583px;text-anchor:middle;display:inline;fill:#000000;stroke-width:0.370417;stroke-linejoin:round;paint-order:fill markers stroke"
+       x="5.4617882"
+       y="4.9543819"
+       id="text1007"
+       inkscape:label="MAIN SITE"><tspan
+         sodipodi:role="line"
+         id="tspan1005"
+         style="font-size:3.52778px;fill:#ffffff;fill-opacity:1;stroke-width:0.370417"
+         x="0"
+         y="0">MAIN</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:3.52778px;fill:#ffffff;fill-opacity:1;stroke-width:0.370417"
+         x="0"
+         y="0"
+         id="tspan1221"
+         dy="-1.2">SITE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:3.52778px;font-family:Tate;-inkscape-font-specification:'Tate, Bold';text-align:center;letter-spacing:0.264583px;text-anchor:middle;display:none;fill:#000000;stroke-width:0.370417;stroke-linejoin:round;paint-order:fill markers stroke"
+       x="5.2980857"
+       y="3.7499988"
+       id="text1361"
+       inkscape:label="GO BACK"><tspan
+         sodipodi:role="line"
+         id="tspan1357"
+         style="font-size:3.52778px;fill:#ffffff;fill-opacity:1;stroke-width:0.370417"
+         x="5.2980857"
+         y="3.7499988"
+         dy="1.2">GO</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:3.52778px;fill:#ffffff;fill-opacity:1;stroke-width:0.370417"
+         x="5.4303775"
+         y="8.1597242"
+         id="tspan1359">BACK</tspan></text>
+  </g>
+</svg>
