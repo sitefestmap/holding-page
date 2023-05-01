@@ -474,7 +474,7 @@ body.dark-mode {
 	background-color: rgba(250, 92, 79, 0.25);
 }
 .holdingpage-introp {
-	font-size: 3vw;
+	font-size: calc((5vh + 5vw)/2);
 	font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif;
 	font-weight: bold;
 	text-align: center;
@@ -1365,7 +1365,7 @@ html, body {
 }
 
 .holdingpage-introp {
-	font-size: 2.75vw;
+	font-size: calc((3vh + 3vw)/2);
 }
 
 
@@ -1579,7 +1579,7 @@ html, body {
 }
 
 .holdingpage-introp {
-	font-size: 4vw;
+	font-size: calc((4vh + 4vw)/2);
 }
 
 .end-links {
@@ -1786,8 +1786,8 @@ html, body {
 }
 
 .holdingpage-introp {
-	font-size: 7vw;
-	margin: 3vh auto 5vh auto;
+	font-size: calc((4.5vh + 4.5vw)/2);
+	margin: 3vh auto 3vh auto;
 }
 
 
