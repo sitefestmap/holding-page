@@ -21,6 +21,8 @@ document.addEventListener("DOMContentLoaded", function() {
 	const slide1 = document.querySelectorAll('.slide1-1');
 	const intro1 = document.querySelector('.intro1');
 	const intro2 = document.querySelector('.intro2');
+	const prev = document.querySelectorAll('.prev');
+	const next = document.querySelectorAll('.next');
 	const linesRect = document.querySelectorAll('.lines-rect');
 	const text2 = document.querySelectorAll('.text-2');
 	const mySlides = document.querySelectorAll('.mySlides');
@@ -34,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
 	const holdingpageIntro = document.querySelectorAll('.holdingpage-intro');
 	const holdingpageIntroP = document.querySelectorAll('.holdingpage-introp');
 
-	let slideIndex = 1;
+	var dots = document.getElementsByClassName("dot");
 	let touchstartX = 0;
 	let touchendX = 0;
 	let isDarkMode;
@@ -119,6 +121,8 @@ function saveAndChangePage() {
 	  ...introHead,
 	  ...mySlides,
 	  ...slide1,
+	  ...prev,
+	  ...next,
 	  ...linesRect,
 	  ...text2,
 	  ...slidesTextDark,
@@ -174,8 +178,12 @@ function saveAndChangePage() {
 		  }
 	}
 
+var currentPage = window.location.pathname.split('/').pop();
 
-if (window.location.pathname === '/index.html') {
+
+
+//if (window.location.pathname === '/index.html') {
+if (currentPage === 'index.html') {
 		function lazyLoad() {
 		  for (let i = 0; i < slides.length; i++) {
 		    const slide = slides[i];
@@ -199,6 +207,8 @@ if (window.location.pathname === '/index.html') {
 	    plusSlides(1);
 	  });
 
+	
+	let slideIndex = 1;
 	showSlides(slideIndex);
 
 	function plusSlides(n) {
@@ -212,7 +222,6 @@ if (window.location.pathname === '/index.html') {
 	function showSlides(n) {
 	  let i;
 	  let slides = document.getElementsByClassName("mySlides");
-	  let dots = document.getElementsByClassName("dot");
 	  if (n > slides.length) {slideIndex = 1}    
 	  if (n < 1) {slideIndex = slides.length}
 	  for (i = 0; i < slides.length; i++) {
@@ -225,6 +234,14 @@ if (window.location.pathname === '/index.html') {
 	  dots[slideIndex-1].className += " active";
 	}
 
+for (var i = 0; i < dots.length; i++) {
+	
+  dots[i].addEventListener("click", function() {
+  	console.log(`WORKED`);
+    var dotIndex = Array.prototype.indexOf.call(dots, this);
+    showSlides(slideIndex += dotIndex);
+  });
+}
 
 	slideshow.addEventListener('touchstart', function(event) {
 	    touchstartX = event.changedTouches[0].screenX;
@@ -256,16 +273,17 @@ if (window.location.pathname === '/index.html') {
 	    }
 	}
 
-	document.addEventListener('wheel', function(e) {
+//	document.addEventListener('wheel', function(e) {
 	  // Check if the delta value is positive or negative to determine the scroll direction
-	  if (e.deltaY > 0) {
+//	  if (e.deltaY > 0) {
 	    // Scroll down, go to next slide
-	    plusSlides(1);
-	  } else {
+//	    plusSlides(1);
+//	  } else {
 	    // Scroll up, go to previous slide
-	    plusSlides(-1);
-	  }
-	});
+//	    plusSlides(-1);
+//	  }
+//	});
+
 }
 
 
